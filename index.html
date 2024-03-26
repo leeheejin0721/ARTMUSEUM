@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>경기도 미술관 리뉴얼</title>
 </head>
 <body>
+    <header>
+        <div class="leftmenu-logo-rightmenu">
+            <div class="container"> <!-- 그리드 시스템 -->
+                <div class="menu-logo-box"> <!-- 플렉스 컨테이너 -->
+                    <div class="left-menu">
+                        <a href="#"><img src="./images/인스타그램.gif" alt="인스타"></a>
+                        <a href="#"><img src="./images/페이스북.gif" alt="페이스북"></a>
+                    </div> <!-- left-menu -->
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/header-logo.gif" alt="logo"></a>
+                    </div> <!-- logo -->
+                    <div class="right-menu">
+                        <form action="#" method="post">
+                            <select name="organ" id="organ">
+                                <option value="organ">관련기관</option>
+                                <option value="organ2">경기문화재단</option>
+                                <option value="organ3">경기문화재연구원</option>
+                                <option value="organ4">경기도박물관</option>
+                                <option value="organ5">실학박물관</option>
+                                <option value="organ6">전곡선사박물관</option>
+                                <option value="organ7">경기도어린이박물관</option>
+                                <option value="organ28">경기북부어린이박물관</option>
+                            </select>
+                        </form>
+                        <a href="#">문의</a>
+                    </div> <!-- right-menu -->
+                    <div class="header-icon">
+                        <div class="search-box">
+                            <form action="#" method="post">
+                                <div class="search-input-box">
+                                    <input type="search" name="search" class="search" />
+                                    <div class="search-icon">
+                                        <img src="./images/search-icon.gif" alt="search-icon">
+                                    </div> <!-- search-icon -->
+                                </div> <!-- search-input-box -->
+                            </form>
+                        </div> <!-- search-box -->
+                        <a href="#"><img src="./images/login-icon.gif" alt="login"></a>
+                        <a href="#"><img src="./images/shop-icon.gif" alt="shop"></a>
+                        <a href="#"><img src="./images/language-icon.gif" alt="language"></a>
+                    </div> <!-- header-icon -->
+                </div> <!-- menu-logo-box -->
+            </div> <!-- container -->
+        </div> <!-- leftmenu-logo-rightmenu -->
 
+        <nav class="main-menu">
+            <div class="container">
+                <ul class="gnb">
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">전시/행사</a></li>
+                    <li><a href="#">소장품</a></li>
+                    <li><a href="#">배움/참여</a></li>
+                    <li><a href="#">연구</a></li>
+                </ul>
+            </div> <!-- container -->
+        </nav> <!-- main-menu -->
+    </header>
+
+    <main>
+        <section class="display">
+            <div class="container">
+                <h2>전시</h2>
+                <span class="plus">+</span>
+                <a href="#"><img src="./images/전시이미지1.gif" alt="display1"></a>
+                <a href="#"><img src="./images/전시이미지2.gif" alt="display2"></a>
+                <a href="#"><img src="./images/전시이미지3.gif" alt="display3"></a>
+            </div> <!-- container -->
+        </section> <!-- display -->
+
+        <section class="view">
+            <div class="container">
+                <div class="view-guide"> <!-- 플렉스 박스 -->
+                    <h3><a href="#">관람시간 : 화 ~ 일요일 10:00 ~ 18:00</a></h3>
+                    <small>*관람종료 1시간 전까지만 입장 가능합니다.</small>
+                    <h3><a href="#">매주 월요일 휴관</a></h3>
+                    <small>공휴일 제외</small>
+                    <h3><a href="#">관람료 무료</a></h3>
+                    <small>(특별전시는 유료)</small>
+                    <strong><a href="#">오시는길</a></strong>
+                    <strong><a href="#">예약하기</a></strong>
+                    <span><a href="#">더보기 +</a></span>
+                </div>
+            </div>
+        </section> <!-- view -->
+    </main>
 </body>
 </html>
