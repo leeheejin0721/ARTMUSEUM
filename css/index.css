@@ -1,1 +1,94 @@
 @charset "utf-8";
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}  
+
+/*==== header ====*/
+header {
+    position: relative;
+    width: 100%; height: 356px;
+    background: url(../images/헤더-배경.gif) no-repeat center top;
+}
+
+/* menu-logo-box */
+.menu-logo-box {
+    display: flex;
+}
+.left-menu,
+.right-menu {
+    width: 480px;
+    background-color: aqua;
+}
+.left-menu > ul,
+.right-menu > ul {
+    display: flex;
+}
+
+/* left-menu */
+.left-menu li {
+    padding-right: 17px;
+}
+
+/* logo */
+.logo {
+    padding: 32px 40px 0 43px;
+}
+
+/* right-menu */
+.right-menu > ul {
+    position: absolute;
+    left: 950px;
+}
+.right-menu li {
+    padding-left: 26px;
+}
+.right-menu li select {
+    border: 0;
+    background: transparent;
+}
+
+/* header-icon */
+.header-icon > ul {
+    position: relative;
+    display: flex;
+    position: absolute;
+    left: 880px;
+    top: 245px;
+    background-color: bisque;
+}
+.header-icon li {
+    padding-left: 18px;
+}
+.header-icon li > form div {
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+.header-icon li > form div img {
+    width: 18px;
+}
+
+/* main-menu */
+.main-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+.main-menu .gnb {
+    display: flex;
+    height: 75px;
+    align-items: center;
+}
+.main-menu .gnb > li {
+    flex: 200px;
+    padding: 0 80px;
+}
+.main-menu .gnb > li > a {
+    font-weight: bold;
+}
