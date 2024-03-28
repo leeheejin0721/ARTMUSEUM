@@ -123,7 +123,6 @@ header {
 .view .view-guide > .view-line1 {
     display: flex;
     border-bottom: 1px solid black;
-    margin-bottom: 131px;
 }
 
 .view .view-guide > .view-line1 > small {
@@ -134,13 +133,15 @@ header {
 /* section art */
 .art {
     background-color: #f4f5f9;
+    padding: 68px 0 81px 0;
+    margin-top: 46px;
 }
 .art .online-art {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 47px 45px 47px;
+    
 }
 
 .art .online-art > p {
@@ -167,3 +168,54 @@ header {
 .art .mine-art > .art-img {
     display: flex;
 }
+
+/* section notice */
+.notice {
+    background-color: aquamarine;
+    height: 125px;
+    margin-bottom: 81px;
+}
+.notice .notice-box {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    align-items: center;
+}
+.notice .notice-box > p {
+    font-size: 18px;
+}
+
+/* section join */ 
+.join {
+    margin-bottom: 149px;
+}
+.join .join-box > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.join .join-box li > a {
+    width: 381px; height: 381px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    margin: 0 20px 45px 0;
+}
+.join .join-box li > strong {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+.join .join-box li > p {
+    font-size: 20px;
+    margin-right: 120px;
+}
+.join .join-box li:last-child > p {
+    margin-right: 0
+}
+.join .join-box li > .go {
+    position: absolute;
+    bottom: 
+    font-size: 16px;
+}
+
+/* section program */
