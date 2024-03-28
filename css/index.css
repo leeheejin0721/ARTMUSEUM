@@ -91,4 +91,79 @@ header {
 }
 .main-menu .gnb > li > a {
     font-weight: bold;
+    font-size: 17px;
+}
+
+
+/*==== main ====*/
+/* section display */
+.display h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 46px 0;
+}
+.display .plus {
+    display: inline-block;
+    padding-left: 32px;    
+}
+.display .display-box {
+    display: flex;
+}
+.display .display-box > a {
+    margin-right: 20px;
+}
+
+/* section view */
+.view .view-guide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    
+}
+.view .view-guide > .view-line1 {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 131px;
+}
+
+.view .view-guide > .view-line1 > small {
+    font-size: 12px;
+    
+}
+
+/* section art */
+.art {
+    background-color: #f4f5f9;
+}
+.art .online-art {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 47px 45px 47px;
+}
+
+.art .online-art > p {
+    margin-left: 47px;
+    font-size: 16px;
+}
+.art .online-art > span {
+    position: absolute;
+    left: 1025px;
+    top: 73px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.art .mine-art > h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 46px 0;
+}
+.art .mine-art .plus {
+    display: inline-block;
+    padding-left: 32px;    
+}
+.art .mine-art > .art-img {
+    display: flex;
 }
