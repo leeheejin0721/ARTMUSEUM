@@ -200,22 +200,106 @@ header {
     margin: 0 20px 45px 0;
 }
 .join .join-box li > strong {
-    position: relative;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 34px;
 }
 .join .join-box li > p {
+    position: relative;
     font-size: 20px;
     margin-right: 120px;
 }
 .join .join-box li:last-child > p {
     margin-right: 0
 }
-.join .join-box li > .go {
+.join .join-box li > .go a {
     position: absolute;
-    bottom: 
+    bottom: -89px;
     font-size: 16px;
+}
+.join .join-box > .go a:hover {
+    text-decoration: underline;
 }
 
 /* section program */
+.program {
+    position: relative;
+    padding-bottom: 88px;
+}
+.program h2 {
+    margin-bottom: 46px;
+}
+.program .program-box {
+    position: absolute;
+    top: 145px;
+    left: 705px;
+}
+.program .program-box > h3 {
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.program .program-box > p {
+    font-size: 18px;
+}
+
+.program .program-box a {
+    margin-top: 102px;
+}
+.program .program-box a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+/*==== footer ====*/
+footer {
+    background-color: #434a61;
+}
+
+/* menu */
+.menu .footer-menu > ul {
+    display: flex;
+    width: 723px;
+    justify-content: space-between;
+    padding: 62px 0;
+}
+
+/* footerlogo-info */
+.footerlogo-info .footer-content-box {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.footerlogo-info .footer-content-box > .info {
+    display: flex;
+    width: 837px;
+    justify-content: space-between;
+}
+
+/*  footer-bottom */
+.footer-bottom .footer-bottom-box {
+    position: relative;
+    display: flex;
+    margin-top: 51px;
+}
+.footer-bottom .footer-bottom-box > .footer-bottom-logo {
+    display: flex;
+}
+.footer-bottom .footer-bottom-box > .footer-bottom-logo > a {
+    margin-right: 20px;
+}
+.footer-bottom .footer-bottom-box > .copyright {
+    
+}
+.footer-bottom .footer-bottom-box > .footer-sns {
+    position: absolute;
+    top: 23px;
+    left: 1113px;
+    display: flex;
+    align-items: center;
+}
+.footer-bottom .footer-bottom-box > .footer-sns > a {
+    margin-left: 23px;
+}
