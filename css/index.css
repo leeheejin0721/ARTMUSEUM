@@ -108,10 +108,16 @@ header {
 }
 .display .display-box {
     display: flex;
+    align-items: center;
 }
+.display .display-box > .slide1 {
+    margin-right: 20px;
+}
+
 .display .display-box > a {
     margin-right: 20px;
 }
+
 
 /* section view */
 .view .view-guide {
