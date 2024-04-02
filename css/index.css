@@ -378,7 +378,9 @@ header {
 .join .join-box li > .go3 a {
     left: 1055px;
 }
-.join .join-box li > .go > a:hover {
+.join .join-box li > .go1 > a:hover,
+.join .join-box li > .go2 > a:hover,
+.join .join-box li > .go3 > a:hover {
     font-weight: 600;
     text-decoration: underline;
 }
@@ -418,7 +420,7 @@ header {
 .program .program-box > span > a {
     display: inline-block;
     padding: 5px;
-    border: 2px inset #26037e;
+    border: 2px outset white;
     border-radius: 10%;
 }
 .program .program-box > span > a:hover {
